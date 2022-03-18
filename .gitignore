@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+
+#keyfolders and credential files 
+/keys
+
 # testing
 /coverage
 
