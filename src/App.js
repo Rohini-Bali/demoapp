@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Greeting from './Demo';
-import ExpenseDetail from './components/ExpenseDetail';
+import ExpenseItem from './components/ExpenseItem'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Greeting />
-        <ExpenseDetail/>
+        <ExpenseItem/>
       </header>
     </div>
   );
